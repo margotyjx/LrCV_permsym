@@ -7,6 +7,7 @@ This repository contains the implementation of paper Learning collective variabl
 
 ## Usage
 
+```
 LrCV_permsym
 ├── CV_evaluation
 │   ├──LJ7in2D
@@ -40,20 +41,27 @@ LrCV_permsym
 │   │   │  └── LJ7mu2mu3.ipynb
 │   │   └──  NN_committor_approx.py
 │   ├── LJ8in3D
-│   │   ├── image_dailylife
-│   │   ├── image_comics
-│   │   ├── image_robotics
-│   │   ├── single_image_dailylife
-│   │   ├── single_image_comics
-│   │   └──  single_image_robotics
+│   │   ├── CV_LDA12_SortCNum
+│   │   ├── CV_LDA23_SortCNum
+│   │   ├── CV_OrderedCoordNum
+│   │   ├── mu2mu3
+│   │   └──  NN_committor_approx.py
 │   └── compute_rates.ipynb
 ├── CV_learning
-│   ├── hallusion_bench
-│   │   ├── VD
-│   │   ├── VS
-│   ├── evaluation.py
-│   ├── HallusionBench.json
-│   └── HallusionBench_result.json
+│   ├── dMap_based
+│   │   ├── src
+│   │   ├── diff_map.py
+│   │   ├── main_CV.py
+│   │   ├── main_DDnet.py
+│   │   ├── Manifold.py
+│   │   ├── MEP.py
+│   │   ├── models.py
+│   │   ├── utils_LJ7.py
+│   │   ├── utils_LJ8.py
+│   │   └── utils.py
+│   ├── LJ7
+│   └── LJ8
+```
 
 ### Learning collective variables: CV_learning
 - **Step 1**. Compute manifold with diffusion maps
