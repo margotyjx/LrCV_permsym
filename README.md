@@ -24,7 +24,7 @@ This repository contains the implementation of paper Learning collective variabl
 
 ### Computation of free energy and diffusion tensor and committor function via FEM
 
-See instructions in xxx
+See instructions in https://github.com/mar1akc/LJ7in2D_LJ8in3D_learningCVs.git for running `LJ{NATOMS}in{DIM}D_bicubicFE_binning.c` and `LJ{NATOMS}in{DIM}D_diffusion_matrix.c` in step 3 and 4.
 
 ### Visualization and approximation of committor function for forward flux sampling: CV_evaluation
 
@@ -42,7 +42,7 @@ python NN_committor_approx.py --beta 9 --method SortCNum --load
 
 ### Forward flux sampling
 
-See instructions in xxx
+See instructions in https://github.com/mar1akc/LJ7in2D_LJ8in3D_learningCVs.git for running `FFS.c` in step 7.
 
 To visualize the free energy, diffusion tensor, committor function and probabiliy density after forward flux sampling, run the jupyter nobebook in each subfolder, i.e., 
 ```CV_evaluation/LJ7in2D/CV_OrderedCoordNum/LJ7_CV_SortCNum.ipynb, CV_evaluation/LJ7in2D/CV_SortedDistSquared/MLCV_SortDistSquared.ipynb``` etc.
